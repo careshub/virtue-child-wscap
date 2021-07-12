@@ -30,7 +30,7 @@ add_action( 'wp_enqueue_scripts', 'virtue_child_check_bootstrap', 999 );
  * @since 1.0.1
  */
 function virtue_child_docs_title( $title ) {
-	if ( is_archive( 'bp_doc' ) ) {
+	if ( is_archive( 'bp_doc' ) && function_exists( 'bp_docs_get_docs_directory_title' ) ) {
 		$title = bp_docs_get_docs_directory_title();
 	}
 	return $title;
