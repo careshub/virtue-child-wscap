@@ -8,3 +8,24 @@
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
  Text Domain:  virtue-child-cares
 */
+
+.color_gray,
+.form-search .search-icon,
+.form-search .search-query,
+.form-search .search-query::placeholder {
+	color: #6e6e6e;
+}
+
+.entry-content a {
+	text-decoration: underline;
+}
+
+.home-iconmenu a h2,
+.home-iconmenu a h4,
+.home-iconmenu a p,
+.icon-light {
+	color: #fff;
+}
+.main .home-iconmenu a{
+	background-color: #990000;
+}
